@@ -1,1 +1,2 @@
-/* Add Author and Project Details here */
+Author : Ishaq 
+Project details : Statistics of a given array
