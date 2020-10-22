@@ -1,4 +1,4 @@
 build:
-		/usr/bin/arm-none-eabi-gcc main.c -o main.out --specs=nosys.specs-std=c99 -mcpu=cortex-m0plus -mthumb -Werror
+		/usr/bin/arm-none-eabi-gcc main.c -o main.out --specs=nosys.specs -std=c99 -mcpu=cortex-m0plus -mthumb -Werror
 assembly:
-		/usr/bin/arm-none-eabi-gcc main.c -o main.out --specs=nosys.specs-std=c99 -mcpu=cortex-m0plus -mthumb -Wall
+		/usr/bin/arm-none-eabi-gcc -S main.c -o main.s --specs=nosys.specs -std=c99 -mcpu=cortex-m0plus -mthumb 
